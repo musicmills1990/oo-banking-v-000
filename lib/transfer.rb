@@ -12,7 +12,7 @@ end
 
 def valid?
     if @sender.valid? && @receiver.valid?
-      true 
+      true
     else
       false
     end
