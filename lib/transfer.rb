@@ -21,6 +21,7 @@ end
 
 
 def execute_transaction
+  binding.pry
   if self.valid? == true
     @receiver.balance += @amount
     @status = "complete"
