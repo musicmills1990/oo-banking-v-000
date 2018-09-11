@@ -9,11 +9,14 @@ def initialize(sender, receiver, transwer_amount)
   @amount = 50
 end
 
+
 def valid?
 end
 
+
 def execute_transaction
 end
+
 
 def reverse_transfer
 end
