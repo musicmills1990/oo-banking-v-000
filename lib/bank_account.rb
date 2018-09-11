@@ -18,6 +18,7 @@ def display_balance
 end
 
 def valid?
+  binding.pry
   if @status == "open"
     true
   else
