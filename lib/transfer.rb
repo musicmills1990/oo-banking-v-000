@@ -20,8 +20,7 @@ end
 
 
 def execute_transaction
-  binding.pry
-  if @sender.valid? == true && @sender != @receiever
+  if @sender.valid? == true
     @sender.balance -= @amount
     @receiver.balance += @amount
     @status = "complete"
