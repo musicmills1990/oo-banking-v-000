@@ -25,8 +25,6 @@ def execute_transaction
   else
     "Transaction rejected. Please check your account balance."
   end
-  
-    
 end
 
 
