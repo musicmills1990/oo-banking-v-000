@@ -20,11 +20,10 @@ end
 
 
 def execute_transaction
-  if @sender.valid? == true
+  while @sender.valid? == true && (@sender.balance != @receiever.balance)
     @sender.balance -= @amount
     @receiver.balance += @amount
     @status = "complete"
-    break
   else
     "Transaction rejected. Please check your account balance."
   end
@@ -32,7 +31,7 @@ end
 
 
 def reverse_transfer
-  
+
 end
 
 
