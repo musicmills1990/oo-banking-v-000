@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def deposit(money)
-  money + @balance
+  @balance += money
 end
 
 def display_balance
