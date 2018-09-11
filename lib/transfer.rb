@@ -11,7 +11,7 @@ end
 
 
 def valid?
-    if @sender.BankAccount.valid? && @receiver.BankAccount.valid?
+    if @sender.valid? && @receiver.valid?
       true
     else
       false
