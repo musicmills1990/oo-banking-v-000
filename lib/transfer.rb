@@ -11,6 +11,10 @@ end
 
 
 def valid?
+    if @sender.BankAccount.valid? && @receiver.BankAccount.valid?
+      true
+    else
+      false
 end
 
 
